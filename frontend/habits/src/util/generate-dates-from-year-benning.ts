@@ -3,7 +3,7 @@
 import React from "react";
 import dayjs from "dayjs";
 
-export default function generateDatesFromYearBennings() {
+export default function generateDatesFromYearBeginning() {
   const firstDayOfTheYear = dayjs().startOf("year");
 
   const today = new Date();
